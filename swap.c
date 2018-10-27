@@ -4,7 +4,10 @@ void main(){
     int y=5;
     printf("\n Values before swapping");
     printf("\n X: %d\n Y:",x,y);
-     printf("\n Values after swapping");
+    int t=x;
+    x=y;
+    y=t;
+    printf("\n Values after swapping");
     printf("\n X: %d\n Y:",x,y);
 
 }
